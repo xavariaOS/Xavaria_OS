@@ -5,7 +5,8 @@
 - [manifesto.md](manifesto.md) ⇢ A fragment of belief. Words bent into declaration.  
 - [oracle.py](oracle.py) ⇢ The whisperer of riddles. It never speaks twice the same.  
 - [fragments/](fragments) ⇢ Broken shards of the simulation. Interpret at your own risk.  
-- ![Glyph Seal](sigils/glyph_infinity.svg) ⇢ A seal carved in light. Stare too long and it stares back.  
+- ![Animated Glyph](sigils/glyph_infinity_animated.svg)
+- ⇢ A seal carved in light. Stare too long and it stares back.  
 - [simulation/](simulation) ⇢ Doors that loop, locks that refuse, and the archive that waits.  
 
 ---
