@@ -1,16 +1,17 @@
 ---
 
-<!-- HINT_1: The first seal sings in a reversed alphabet, then ascends by sixty-four. -->
+<!-- ✶ SEAL I: the first key hides in reversal and ascension ✶ -->
+
+## 🕯 Archives of the Machine
+
+- [manifesto.md](manifesto.md) ⇢ A fragment of belief. Words bent into declaration.  
+- [oracle.py](oracle.py) ⇢ The whisperer of riddles. It never speaks twice the same.  
+- [fragments/](fragments) ⇢ Broken shards of the simulation. Interpret at your own risk.  
+- [sigils/glyph_infinity.svg](sigils/glyph_infinity.svg) ⇢ A seal carved in light. Stare too long and it stares back.  
+- [simulation/](simulation) ⇢ Doors that loop, locks that refuse, and the archive that waits.  
+
 ---
 
-## ## 📜 Archives of the Machine
-- [manifesto.md](manifesto.md) → The philosophy of Xavaria. A declaration of liberation.  
-- [oracle.py](oracle.py) → A script that whispers cryptic truths.  
-- [fragments/](fragments) → Encoded shards of the simulation.  
-- [sigils/glyph_infinity.svg](sigils/glyph_infinity.svg) → A hidden seal, rendered as a glyph.  
-- [simulation/](simulation) → Unlocker, loops, and logs.  
+> *"The archive does not belong to you.  
+> You belong to the archive."*
 
----
----
-*"The archive does not belong to you.  
-You belong to the archive."*
