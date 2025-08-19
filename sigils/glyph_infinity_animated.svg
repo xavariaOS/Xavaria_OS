@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <radialGradient id="gold">
+      <stop offset="0%"  stop-color="#ffe27a"/>
+      <stop offset="60%" stop-color="#f5b642"/>
+      <stop offset="100%" stop-color="#a06b00"/>
+    </radialGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="1.5" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- outer ring -->
+  <circle cx="50" cy="50" r="44" fill="none" stroke="url(#gold)" stroke-width="2" filter="url(#glow)">
+    <animate attributeName="stroke-width" values="2;3;2" dur="2.8s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- infinity path -->
+  <g>
+    <path d="M20,50 a30,20 0 1,0 60,0 a30,20 0 1,0 -60,0"
+          fill="none" stroke="url(#gold)" stroke-width="3" filter="url(#glow)">
+      <animate attributeName="stroke-width" values="3;4;3" dur="2.8s" repeatCount="indefinite"/>
+    </path>
+    <!-- slow rotation of whole glyph -->
+    <animateTransform attributeName="transform" attributeType="XML"
+                      type="rotate" from="0 50 50" to="360 50 50"
+                      dur="8s" repeatCount="indefinite"/>
+  </g>
+</svg>
